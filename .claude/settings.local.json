@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//private/tmp/pw-runner/**)",
+      "Bash(node chips.mjs)",
+      "Bash(node mobile.mjs)",
+      "Bash(npm run *)",
+      "Bash(node *)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000)",
+      "Bash(xattr -r -d com.apple.quarantine node_modules)",
+      "Bash(xattr node_modules/@rollup/rollup-darwin-arm64/rollup.darwin-arm64.node)",
+      "Bash(codesign -dv node_modules/@rollup/rollup-darwin-arm64/rollup.darwin-arm64.node)",
+      "Bash(codesign -v node_modules/@rollup/rollup-darwin-arm64/rollup.darwin-arm64.node)",
+      "Bash(rm -rf node_modules package-lock.json)",
+      "Bash(npm install *)",
+      "Bash(curl -s -o /dev/null -w \"HTTP %{http_code}\\\\n\" http://localhost:3000)",
+      "Bash(npm prune *)",
+      "Bash(curl -s -o /dev/null -w \"current server HTTP %{http_code}\\\\n\" http://localhost:3000)",
+      "Bash(curl -s http://localhost:3000)",
+      "Bash(git init *)",
+      "Bash(git add *)",
+      "Bash(git -c user.email=subscription@ethertech.ltd -c user.name=mubasshir commit -q -m 'Initial commit: Neovogent AI marketing site *)",
+      "Bash(curl -s -H \"Authorization: token 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\" https://api.github.com/user)"
+    ]
+  }
+}
