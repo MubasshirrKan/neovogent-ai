@@ -7,6 +7,7 @@ import Clients from './components/Clients';
 import SaveMoney from './components/SaveMoney';
 import CTA from './components/CTA';
 import Stars from './components/Stars';
+import Footer from './components/Footer';
 
 export default function App() {
   return (
@@ -20,6 +21,7 @@ export default function App() {
       <Clients />
       <SaveMoney />
       <CTA />
+      <Footer />
     </main>
   );
 }

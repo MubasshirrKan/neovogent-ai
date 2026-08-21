@@ -36,11 +36,6 @@ export default function CTA() {
           </button>
         </motion.div>
       </div>
-      
-      {/* Footer minimal */}
-      <div className="absolute bottom-6 left-0 right-0 text-center flex flex-col items-center">
-         <p className="text-zinc-600 text-sm">© {new Date().getFullYear()} Neovogent AI. All rights reserved.</p>
-      </div>
     </section>
   );
 }

@@ -3,8 +3,63 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Neovogent provides specialized AI assistants working 24/7 for your business." />
+    <meta name="description" content="Neovogent AI Solutions UK Ltd provides specialized AI assistants working 24/7 for your business. Suite 5, The Cloisters, 11-12 George Road, Edgbaston, Birmingham, B15 1NP. Call +44 7713 623778." />
     <title>Neovogent AI — Specialized AI Assistants Working 24/7</title>
+    <link rel="canonical" href="https://neovogent.com/" />
+
+    <!-- Open Graph (read by Facebook / Meta crawler) -->
+    <meta property="og:type" content="business.business" />
+    <meta property="og:site_name" content="Neovogent AI" />
+    <meta property="og:title" content="Neovogent AI Solutions UK Ltd — Specialized AI Assistants Working 24/7" />
+    <meta property="og:description" content="Neovogent AI Solutions UK Ltd provides specialized AI assistants working 24/7 for your business. Birmingham, United Kingdom. Call +44 7713 623778." />
+    <meta property="og:url" content="https://neovogent.com/" />
+    <meta property="og:image" content="https://neovogent.com/android-chrome-512x512.png" />
+    <meta property="og:locale" content="en_GB" />
+    <meta property="business:contact_data:street_address" content="Suite 5, The Cloisters, 11-12 George Road" />
+    <meta property="business:contact_data:locality" content="Edgbaston, Birmingham" />
+    <meta property="business:contact_data:region" content="West Midlands" />
+    <meta property="business:contact_data:postal_code" content="B15 1NP" />
+    <meta property="business:contact_data:country_name" content="United Kingdom" />
+    <meta property="business:contact_data:phone_number" content="+44 7713 623778" />
+    <meta property="business:contact_data:website" content="https://neovogent.com" />
+
+    <!-- Twitter card -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Neovogent AI Solutions UK Ltd" />
+    <meta name="twitter:description" content="Specialized AI assistants working 24/7 for your business. Birmingham, UK. +44 7713 623778." />
+    <meta name="twitter:image" content="https://neovogent.com/android-chrome-512x512.png" />
+
+    <!-- Structured data: Organization / LocalBusiness -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": ["Organization", "LocalBusiness"],
+      "@id": "https://neovogent.com/#organization",
+      "name": "NEOVOGENT AI SOLUTIONS UK LTD",
+      "legalName": "NEOVOGENT AI SOLUTIONS UK LTD",
+      "alternateName": "Neovogent AI",
+      "url": "https://neovogent.com/",
+      "logo": "https://neovogent.com/android-chrome-512x512.png",
+      "image": "https://neovogent.com/android-chrome-512x512.png",
+      "description": "Specialized AI assistants working 24/7 for your business.",
+      "telephone": "+447713623778",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Suite 5, The Cloisters, 11-12 George Road",
+        "addressLocality": "Edgbaston",
+        "addressRegion": "Birmingham",
+        "postalCode": "B15 1NP",
+        "addressCountry": "GB"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+447713623778",
+        "contactType": "customer service",
+        "areaServed": "GB",
+        "availableLanguage": "English"
+      }
+    }
+    </script>
 
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
@@ -14,8 +69,26 @@
     <meta name="theme-color" content="#1b0c31" />
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root">
+      <!--
+        Static, crawler-visible business details. Rendered by the server as plain HTML
+        so bots that do not execute JavaScript (e.g. Meta/Facebook business verification)
+        can read the company name, address and phone number. React replaces this
+        content with the full app once it mounts.
+      -->
+      <footer itemscope itemtype="https://schema.org/Organization" style="font-family:Inter,system-ui,sans-serif;padding:2rem 1.5rem;color:#27272a;background:#fafafa;">
+        <p><strong itemprop="legalName">NEOVOGENT AI SOLUTIONS UK LTD</strong></p>
+        <address itemprop="address" itemscope itemtype="https://schema.org/PostalAddress" style="font-style:normal;">
+          <span itemprop="streetAddress">Suite 5, The Cloisters, 11-12 George Road</span>,
+          <span itemprop="addressLocality">Edgbaston</span>,
+          <span itemprop="addressRegion">Birmingham</span>,
+          <span itemprop="addressCountry">United Kingdom</span>,
+          <span itemprop="postalCode">B15 1NP</span>
+        </address>
+        <p>Phone: <a href="tel:+447713623778" itemprop="telephone">+44 7713 623778</a></p>
+        <p>Website: <a href="https://neovogent.com/" itemprop="url">neovogent.com</a></p>
+      </footer>
+    </div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
-
